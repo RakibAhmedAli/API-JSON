@@ -1,16 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>API - JSON</title>
-</head>
-<body>
-    <h1>JSON</h1>
-    <h2>JavaScript Object Notation</h2>
-    <script>
-
-        //Try to clear concept about JSON stringify & parse
+ // Try to clear concept about JSON stringify & parse
+// Start
 
         const user = {
             id: 245, 
@@ -26,7 +15,6 @@
 
         const userFromJSON = JSON.parse(userJson);  //JSON object to normal object
         console.log(userFromJSON);
-        
-    </script>
-</body>
-</html>
+
+
+// End
